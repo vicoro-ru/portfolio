@@ -1,0 +1,14 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+
+{{ id }}
+<div class="container py-3">
+<div class="px-4 py-5 text-center">
+<h1 class="display-5 fw-bold">{{ post.postName }}</h1>
+<p class="lead mb-4">{{ post.publisTime }}</p>
+<p class="lead fw-normal">{{ post.description }}</p>
+</div>
+</div>
+
+{% endblock %}
